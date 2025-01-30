@@ -1,0 +1,59 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,100..900;1,100..900&family=PT+Sans:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    height: 100vh;
+    box-sizing: border-box;/*garante que o filho fiqe dentro do pai*/
+    background-color: black;
+    color: #f6f6f6;
+}
+
+.titulo-destaque{
+    color: #22d4fd;
+}
+
+.apresentacao{
+    margin: 10% 15%;
+    display: flex;/*coloca todos os elementos em linha reta*/
+    align-items: center;/*alinha os elementos*/
+    justify-content: space-between;/*cria um espaço entro os elementos*/
+
+}
+
+.apresentacao__perfil{
+    width: 615px;
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+}
+
+.apresentacao__perfil__titulo{
+    font-size: 36px;
+    font-family:"Noto Sans", serif;
+}
+
+.apresentacao__perfil__texto{
+    font-size: 24px;
+    font-family: "Noto Sans", serif;
+}
+
+.apresentacao__links{
+    display: flex;
+    justify-content: space-between;
+}
+
+.apresentacao__links__botao{
+    background-color: #0de5a8;
+    width: 215px;
+    text-align: center;
+    border-radius: 16px;/*aredondamento da borda*/
+    font-size: 24px;
+    padding: 21.5px 0;
+    text-decoration: none;/*tira a decoração do botão*/
+    color: #000000;
+    font-family: "Noto Sans", serif;
+}
