@@ -6,9 +6,9 @@
 }
 
 body{
-    height: 100vh;
+    /* height: 100vh; */
     box-sizing: border-box;/*garante que o filho fiqe dentro do pai*/
-    background-color: black;
+    background-color: #000000;
     color: #f6f6f6;
 }
 
@@ -43,17 +43,43 @@ body{
 
 .apresentacao__links{
     display: flex;
+    flex-direction: column;
     justify-content: space-between;
+    align-items: center;
+    gap: 32px;
+}
+
+.apresentacao__links_subtitulo{
+    font-family:  "Noto Sans", serif;
+    font-weight: 400;
+    font-size: 24px;
 }
 
 .apresentacao__links__botao{
-    background-color: #0de5a8;
-    width: 215px;
+    display: flex;
+    justify-content: center;
+    gap: 16px;
+    width: 378px;
     text-align: center;
-    border-radius: 16px;/*aredondamento da borda*/
+    border-radius: 8px;/*aredondamento da borda*/
     font-size: 24px;
     padding: 21.5px 0;
     text-decoration: none;/*tira a decoração do botão*/
-    color: #000000;
+    color: #f6f6f6;
     font-family: "Noto Sans", serif;
+    border: 2px solid #22d4fd;
+}
+
+.apresentacao__links__botao:hover {
+    background-color: #272727;
+}
+
+.rodape{
+    color:  #000000;
+    background-color: #22d4fd;
+    padding: 24px;
+    text-align: center;
+    font-family: "Noto Sans", serif;
+    font-size: 24px;
+    font-weight: 400;
 }
