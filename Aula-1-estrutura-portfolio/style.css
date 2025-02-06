@@ -17,7 +17,7 @@ body{
 }
 
 .apresentacao{
-    margin: 10% 15%;
+    padding: 8% 15%;
     display: flex;/*coloca todos os elementos em linha reta*/
     align-items: center;/*alinha os elementos*/
     justify-content: space-between;/*cria um espaço entro os elementos*/
